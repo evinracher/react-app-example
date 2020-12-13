@@ -7,10 +7,13 @@ import React from 'react'
 //   );
 // }
 
+// Class component
 class HelloWorld extends React.Component {
   render() {
     return (
-      <h1>Hello {this.props.name}</h1>
+      <div className="mb-2">
+        <h1>Hello {this.props.name}!</h1>
+      </div>
     )
   }
 }
